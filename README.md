@@ -14,13 +14,8 @@ Formula for conversion between °F -> °C: T°C = (T°F - 32) / 1.8
 salinity could be a, b or c
 temperature could be f(a), f(b) or f(c)
 
-salinity (ppt) | temperature (°F)
-0                32
-10               31.1
-20               30.1
-24.7             29.6
-30               29.1
-35               28.6
+salinity (ppt) -> temperature (°F)
+|0 ppt -> 32 °F||10 ppt -> 31.1 °F||20 ppt -> 30.1 °F||24.7 ppt -> 29.6 °F||30 ppt -> 29.1 °F||35 ppt -> 28.6 °F|
 
 example 1-> I choose the value 05 ppt for the salinity levels of water
 f(b) = 32 + ((5 - 0) / (10 - 0)) * (31.1 - 32) = 31.55 °F
