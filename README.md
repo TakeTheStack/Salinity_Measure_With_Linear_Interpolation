@@ -6,7 +6,7 @@ Using linear interpolation to determine the freezing temperature of wate water f
 
 P1(salinity + temperature (°F)) AND p2(salinity + temperature (°F)) AND salinity->Give: new temperature (°F)
 
-4. Hand Example
+3. Hand Example
 
 Formula of linear interpolation: f(b) = f(a) + ((b - a) / (c - a)) * (f(c) - f(a))
 Formula for conversion between °F -> °C: T°C = (T°F - 32) / 1.8
